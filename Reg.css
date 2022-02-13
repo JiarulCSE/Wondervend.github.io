@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/*---------------------------Registration Form---------------------------*/
+.regbody{
+    background-image: url(Image/Reg.jpg);
+}
+
+.Reg{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 180px;
+    padding: 25px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transform: translate(550px, -50px);
+}
+#fname{
+    width: 350px;
+    padding: 8px;
+    border: none;
+}
+#lname{
+    width: 350px;
+    padding: 8px;
+    border: none;
+}
+
+#email{
+    width: 350px;
+    padding: 8px;
+    border: none;
+}
+
+#password{
+    width: 350px;
+    padding: 7px;
+    border: none;
+}
+
+#re-typepass{
+    width: 350px;
+    padding: 7px;
+    border: none;
+}
+
+#btn{
+    width: 365px;
+    padding: 7px;
+    border: none;
+    background: lightgrey;
+}
+#btn:hover{
+    background: lightgreen;
+    cursor: pointer;
+}
+#checkbox{
+    text-align: left;
+}

@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Image/shop.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.menu ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.fa-shopping-cart{
+    font-size: 23px;
+    color: white;
+}
+.fa-shopping-cart:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: white;
+}
+
+/*----------------Form div----------------------*/
+
+.form{
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 30px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    justify-content: center;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons .fa{
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons .fa:hover{
+    color: orange;
+}
+/*----------------Form div----------------------*/
+
+
+
+/*------------Product drop down--------------*/
+
+/*------Sub link 1-------*/
+.sub-link1{
+    display: none;
+}
+.menu ul li:hover .sub-link1{
+    display: block;
+    position: absolute;
+    background: orange;
+    margin-left: -5px;
+}
+.menu ul li:hover .sub-link1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-link1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu ul li:hover .sub-link1 ul li:last-child{
+    border-bottom: none;
+}
+.menu ul li:hover .sub-link1 ul li a:hover{
+    color: white;
+}
+.fa-angle-right{
+    float: right;
+}
+/*------Sub link 1-------*/
+
+.parent-link1{
+    display: none;
+}
+.hover-me:hover .parent-link1{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: orange;
+}
+
+
+.parent-link2{
+    display: none;
+}
+.hover-me2:hover .parent-link2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: orange;
+}
+
+.parent-link3{
+    display: none;
+}
+.hover-me3:hover .parent-link3{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: orange;
+}
+
+.parent-link4{
+    display: none;
+}
+.hover-me4:hover .parent-link4{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: orange;
+}
+/*------------Product drop down--------------*/
+
+/*------------Footer section------------------*/
+.footer-div{
+    background: #808080;
+    height: 130px;
+    padding: 15px;
+}
+
+.footer-link1{
+    float: left;
+    margin-left: 50px;
+}
+.footer-link1 ul li{
+    list-style: none;
+}
+.footer-link1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-link1 ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+.footer-link2{
+    float: left;
+    margin-left: 300px;
+}
+.footer-link2 ul li{
+    list-style: none;
+}
+.footer-link2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-link2 ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.social-link{
+    float: left;
+    margin-left: 300px;
+}
+.social-link h2{
+    margin-left: 38px;
+}
+.social-link ul li{
+    list-style: none;
+    float: left;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+.social-link ul li a{
+    font-size: 2rem;
+    color: white;
+}
+.social-link ul li a:hover{
+    color: orange;
+    transition: 0.4s ease;
+}
+
+.payment-div{
+    float: left;
+    margin-left: 100px;
+}
+.payment-div h2{
+    margin-left: 35px;
+}
+.payment-div ul li{
+    list-style: none;
+    float: left;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+.payment-div ul li a{
+    font-size: 2rem;
+    color: white;
+}
+.payment-div ul li a:hover{
+    color: orange;
+}
+
+.copyright{
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 900px;
+}
+
+
+
+
+
+
